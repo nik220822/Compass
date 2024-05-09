@@ -12,7 +12,7 @@ POST
 }
 
 
-GET
+POST
 
 {
 "Degree": 30
