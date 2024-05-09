@@ -1,3 +1,5 @@
+POST
+
 {
 "North": "0-22",
 "North-East": "23-67",
@@ -7,4 +9,11 @@
 "South-West": "204-249",
 "West": "250-295",
 "Nord-West": "296-360"
+}
+
+
+GET
+
+{
+"Degree": 30
 }
