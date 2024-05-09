@@ -16,7 +16,7 @@ public class Controller {
         Compass.getInstance().setCompassMap(map);
     }
 
-    @GetMapping(value = "/dir", consumes = "application/json", produces = "application/json")
+    @PostMapping(value = "/dir", consumes = "application/json", produces = "application/json")
     public static Map<String, String> analizeDirection(@RequestBody Map<String, String> map) {
         String side = Compass.getInstance().getSide(map.get("Degree"));
         return Map.of("Side", side);
